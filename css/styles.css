@@ -7,6 +7,8 @@
     --slate: #434455;
     --cloud: #F4F4FD;
     --ocean: #404bbf;
+    --row-indent: 48px;
+    --col-indent: 24px;
 }
 
 /* #region Base styles */
@@ -40,6 +42,15 @@ button {
 /* #endregion */
 
 /* #region Common */
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+    outline: 2px solid red;
+    outline-offset: -2px;
+  }
+
 .hero,
 footer {
     background-color: var(--navy-blue);
@@ -73,6 +84,16 @@ footer {
     letter-spacing: 0.02em;
 }
 
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--row-indent);
+    column-gap: var(--col-indent);
+}
+
+.card-item {
+
+}
 /* #endregion */
 
 /* #region Navigation */
