@@ -119,6 +119,9 @@ footer {
 /* #endregion */
 
 /* #region Navigation */
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
 .logo {
     font-family: var(--second-family);
     font-weight: 700;
