@@ -125,7 +125,7 @@ footer {
 }
 
 .card-set-item {
-    width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
+    width: calc((100% - (var(--col-indent) * (var(--items) - 1))) / (var(--items)));
 }
 
 .logo {
